@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XamarinAndroid.AdBuddiz</id>
+	<title>XamarinAndroid.AdBuddiz</title>
+    <version>2.3.2</version>
+    <authors>Eugenio Estrada</authors>
+    <owners>Eugenio Estrada</owners>
+    <licenseUrl>https://github.com/eugenioestrada/XamarinAndroid.AdBuddiz/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/eugenioestrada</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>XamarinAndroid.AdBuddiz</description>
+    <releaseNotes>XamarinAndroid.AdBuddiz 2.3.2</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Xamarin Xamarin.Android AdBuddiz Android Advertising</tags>
+  </metadata>
+</package>
