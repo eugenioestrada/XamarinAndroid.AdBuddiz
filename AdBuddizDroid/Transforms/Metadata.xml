@@ -1,0 +1,5 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.purplebrain.adbuddiz.sdk']" name="managedName">AdBuddizDroid</attr>
+  <attr path="/api/package[@name='com.purplebrain.adbuddiz.sdk.model']" name="managedName">AdBuddizDroid.Model</attr>
+  <attr path="/api/package[@name='com.purplebrain.adbuddiz.sdk.util.device']" name="managedName">AdBuddizDroid.Util.Device</attr>
+</metadata>

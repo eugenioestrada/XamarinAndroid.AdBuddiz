@@ -1,5 +1,0 @@
-﻿<metadata>
-  <attr path="/api/package[@name='com.purplebrain.adbuddiz.sdk']" name="managedName">XamarinAndroid.AdBuddiz</attr>
-  <attr path="/api/package[@name='com.purplebrain.adbuddiz.sdk.model']" name="managedName">XamarinAndroid.AdBuddiz.Model</attr>
-  <attr path="/api/package[@name='com.purplebrain.adbuddiz.sdk.util.device']" name="managedName">XamarinAndroid.AdBuddiz.Util.Device</attr>
-</metadata>

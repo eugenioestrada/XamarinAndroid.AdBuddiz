@@ -175,6 +175,6 @@ FakesAssemblies/
 *.userprefs
 
 nuget/output
-nuget/XamarinAndroid.AdBuddiz
-xamarin-component/XamarinAndroid.AdBuddiz
+nuget/AdBuddizDroid
+xamarin-component/AdBuddizDroid
 *.xam

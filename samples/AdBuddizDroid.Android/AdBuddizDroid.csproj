@@ -6,14 +6,14 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{B3E293E3-1525-4973-AF15-D6E75FC33809}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>XamarinAndroid.AdBuddiz.Android</RootNamespace>
+    <RootNamespace>AdBuddizDroid.Android</RootNamespace>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
-    <AssemblyName>XamarinAndroid.AdBuddiz.Android</AssemblyName>
+    <AssemblyName>AdBuddizDroid.Android</AssemblyName>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="XamarinAndroid.AdBuddiz">
-      <HintPath>..\Libs\XamarinAndroid.AdBuddiz.dll</HintPath>
+    <Reference Include="AdBuddizDroid">
+      <HintPath>..\Libs\AdBuddizDroid.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

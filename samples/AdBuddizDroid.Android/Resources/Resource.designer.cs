@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("XamarinAndroid.AdBuddiz.Android.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("AdBuddizDroid.Android.Resource", IsApplication=true)]
 
-namespace XamarinAndroid.AdBuddiz.Android
+namespace AdBuddizDroid.Android
 {
 	
 	

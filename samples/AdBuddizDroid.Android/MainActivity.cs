@@ -6,12 +6,12 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using XamarinAndroid.AdBuddiz;
+using AdBuddizDroid;
 
-namespace XamarinAndroid.AdBuddiz.Android
+namespace AdBuddizDroid.Android
 {
-	[Activity (Label = "XamarinAndroid.AdBuddiz.Android", MainLauncher = true)]
-	public class MainActivity : Activity
+	[Activity (Label = "AdBuddizDroid.Android", MainLauncher = true)]
+	public class MainActivity : Activity, IAdBuddizDelegate
 	{
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -22,6 +22,7 @@ namespace XamarinAndroid.AdBuddiz.Android
 
 			AdBuddiz.SetTestModeActive();
 			AdBuddiz.SetPublisherKey("TEST_PUBLISHER_KEY");
+			AdBuddiz.Delegate = this;
 			AdBuddiz.CacheAds(this); // this = current Activity
 
 			// Get our button from the layout resource,
@@ -31,6 +32,31 @@ namespace XamarinAndroid.AdBuddiz.Android
 			button.Click += delegate {
 				AdBuddiz.ShowAd(this);
 			};
+		}
+
+		public void DidCacheAd ()
+		{
+			Console.WriteLine ("On ad cached");
+		}
+
+		public void DidClick ()
+		{
+			Console.WriteLine ("On click");
+		}
+
+		public void DidFailToShowAd (AdBuddizError error)
+		{
+			Console.WriteLine ("On fail to show " + error.ToString());
+		}
+
+		public void DidHideAd ()
+		{
+			Console.WriteLine ("On ad hidden");
+		}
+
+		public void DidShowAd ()
+		{
+			Console.WriteLine("On ad shown");
 		}
 	}
 }

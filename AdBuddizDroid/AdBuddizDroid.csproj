@@ -6,11 +6,11 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{C28D100E-45FD-4A1B-9ADE-7FA15CF5636F}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>XamarinAndroid.AdBuddiz</RootNamespace>
+    <RootNamespace>AdBuddizDroid</RootNamespace>
     <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
-    <AssemblyName>XamarinAndroid.AdBuddiz</AssemblyName>
+    <AssemblyName>AdBuddizDroid</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

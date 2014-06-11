@@ -1,2 +1,2 @@
-mkdir XamarinAndroid.AdBuddiz
-copy ..\XamarinAndroid.AdBuddiz\bin\Release\XamarinAndroid.AdBuddiz.dll XamarinAndroid.AdBuddiz
+mkdir AdBuddizDroid
+copy ..\AdBuddizDroid\bin\Release\AdBuddizDroid.dll AdBuddizDroid
