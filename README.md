@@ -28,6 +28,10 @@
 
 ###Configure & initialize SDK
 
+Import the following namespace:
+
+    using XamarinAndroid.AdBuddiz;
+
 You should request to cache ads as soon as your app starts. In the first created Activity of your app, add the following lines:
 
     protected override void OnCreate(Bundle savedInstanceState)

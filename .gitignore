@@ -176,3 +176,5 @@ FakesAssemblies/
 
 nuget/output
 nuget/XamarinAndroid.AdBuddiz
+xamarin-component/XamarinAndroid.AdBuddiz
+*.xam

@@ -3,7 +3,7 @@
   <metadata>
     <id>XamarinAndroid.AdBuddiz</id>
 	<title>XamarinAndroid.AdBuddiz</title>
-    <version>2.3.2</version>
+    <version>2.3.2.2</version>
     <authors>Eugenio Estrada</authors>
     <owners>Eugenio Estrada</owners>
     <licenseUrl>https://github.com/eugenioestrada/XamarinAndroid.AdBuddiz/blob/master/LICENSE</licenseUrl>
@@ -14,4 +14,7 @@
     <copyright>Copyright 2014</copyright>
     <tags>Xamarin Xamarin.Android AdBuddiz Android Advertising</tags>
   </metadata>
+   <files>
+        <file src="XamarinAndroid.AdBuddiz\XamarinAndroid.AdBuddiz.dll" target="lib\MonoAndroid\XamarinAndroid.AdBuddiz.dll" />
+	</files>
 </package>
